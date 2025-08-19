@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawfect grooming</title>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<style>
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+* {
+  margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+  
+    height: 100px;
+    margin-right: 200px;
+  }
+
+  .logo img {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+  }
+
+  /* Container that centers nav items */
+  .nav-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  .nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+  .nav li a:hover {
+    background-color: #0cdefa;
+    border-radius: 4px;
+  }
+
+.REV{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.footer {
+  padding: 40px 0;
+  background-color: #59CBC3;
+  color: white;
+  margin-bottom:0px; 
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer li {
+  display: inline-block; /* Change to inline-block for horizontal layout */
+  padding: 0 10px;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+.footer ul a:hover {
+  font-size: 20px;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  margin: 0 8px;
+  color: inherit;
+  
+}
+
+.footer .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.footer .footer-break{
+
+border-width:0;
+color:rgb(255, 255, 255);
+background-color:white
+  }
+  .sr-only{
+    margin-bottom: 20px;
+  }
+.soc1{
+  height: 20px;
+  width: 20px;
+}
+.section{
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.section h1{
+  margin-bottom: 20px;
+}
+h1{
+  text-align: center;
+}
+/* From Uiverse.io by satyamchaudharydev */ 
+.button {
+  position: relative;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #59CBC3;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 190px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.button:hover .icon {
+  transform: translate(4px);
+}
+
+.button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+.btn12{
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo"><a href="index.html"><img src="Assessts/Pawfect-removebg-preview.png" alt=""></a></div>
+    <div class="nav-container">
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About us .html">About us </a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contactus.html">Contact us </a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+<div class="section">
+  <h1>Our vision</h1>
+  <p>At Pawfect Grooming, our vision is to create a stress-free, joyful grooming experience where pets feel loved, safe, and pampered. We believe every pet deserves the highest standard of care, and we strive to build lasting relationships with pet parents based on trust, transparency, and compassion. Through expert grooming, a clean environment, and a passionate team, we aim to enhance the well-being and happiness of every furry friend that walks through our doors.</p>
+</div>
+
+<div class="section">
+  <h1>In Your Service Since 1999</h1>
+  <p>For over two decades, Pawfect Grooming has been a trusted name in pet care. Since 1999, we’ve proudly served our community with dedication, skill, and a genuine love for animals. Our long-standing experience means your pet is in capable hands—from gentle grooming sessions to tailored care for every breed. We've grown with our clients, staying true to our mission: to provide top-quality grooming that keeps pets happy, healthy, and looking their best.</p>
+</div>
+
+
+ 
+
+
+<h1>Get In Touch</h1>
+<div class="btn12">
+<button class="button">
+ <a href="Contactus.html"> Contact Us</a>
+  <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+    <path
+      fill-rule="evenodd"
+      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+      clip-rule="evenodd"
+    ></path>
+  </svg>
+   
+</button>
+</div>
+
+
+
+
+
+<div class="foot203">
+
+<!-- fontawesome is beign ised for social icons -->
+<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+  <div class="social" role="navigation" aria-labelledby="social-heading">
+    <h3 id="social-heading" class="sr-only">Location : Amman - Jordan - 7th Circle</h3>
+      <a href="#" aria-label="Facebook"><img src="Assessts/icons8-instagram-logo-24.png" class="soc1"></a>
+      <a href="#" aria-label="Twitter"><img src="Assessts/icons8-facebook-logo-50 (1).png" class="soc1"></a>
+      <a href="#" aria-label="Mastodon"><img src="Assessts/icons8-x-logo-50 (1).png" class="soc1"></a>
+  </div>
+  <hr class="footer-break">
+  <ul class="footer-links" role="navigation" aria-labelledby="footer-links-heading">
+      <h3 id="footer-links-heading" class="sr-only">Footer Links</h3>
+      <li><a href="index.html">Home</a></li>
+        <li><a href="About us .html">About us </a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contactus.html">Contact us </a></li>
+  </ul>
+  <p class="copyright">© 2025 <a style='color:inherit' href="#">Pawfect Grooming  </a></p>
+</footer>
+
+</div>
+
+<script src="index.js"></script>
+
+
+
+</body> 
+</html>
